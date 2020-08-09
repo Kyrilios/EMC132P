@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8069726975005478518}
   - component: {fileID: 4441297262956734874}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Glass-Pillar-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 4002654921778324221}
   - component: {fileID: 2230078075512295656}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: 2nd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 1441565426955941589}
   - component: {fileID: 2679073193948620476}
   m_Layer: 0
-  m_Name: Capsule (3)
+  m_Name: Glass-Pillar-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 8212285547331490906}
   - component: {fileID: 1175759666021766952}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: Glass-Pillar-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 1768884972118307670}
   - component: {fileID: 9003802712123649876}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,11 +402,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762297302948168113}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.96, z: 0}
-  m_LocalScale: {x: 21.07627, y: 0.36272988, z: 21.07627}
+  m_LocalPosition: {x: 0, y: -0.46046105, z: 0}
+  m_LocalScale: {x: 1.1048, y: 0.040343713, z: 1.1048}
   m_Children: []
-  m_Father: {fileID: 1631409429713855489}
-  m_RootOrder: 1
+  m_Father: {fileID: 4913445867314042192}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &809945650063347416
 MeshFilter:
@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 3703626494917056652}
   - component: {fileID: 4608918632955579457}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Divider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,7 +589,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4913445867314042192}
-  - {fileID: 3753042316474383182}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -606,7 +605,7 @@ GameObject:
   - component: {fileID: 382680173112346516}
   - component: {fileID: 4135690677437767315}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: 3rd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -699,7 +698,7 @@ GameObject:
   - component: {fileID: 7590585236481952885}
   - component: {fileID: 8176599176335519267}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: Glass-Pllar-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +793,7 @@ GameObject:
   - component: {fileID: 4013497694532663952}
   - component: {fileID: 8388922104022121839}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -819,6 +818,7 @@ Transform:
   - {fileID: 6060824473567587505}
   - {fileID: 6242332891968399110}
   - {fileID: 5532541686498511561}
+  - {fileID: 3753042316474383182}
   m_Father: {fileID: 1631409429713855489}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -955,7 +955,7 @@ PrefabInstance:
     - target: {fileID: 3030809812431023363, guid: 4ccedd3a6c80faf4bb3e293de622961f,
         type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ccedd3a6c80faf4bb3e293de622961f, type: 3}

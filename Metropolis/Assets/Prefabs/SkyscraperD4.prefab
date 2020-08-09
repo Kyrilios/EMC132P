@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4609003069746800966}
   - component: {fileID: 2352394196628702908}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Glass-Pillar-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,10 +27,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430132212852407049}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.67, y: 28, z: 9.73}
-  m_LocalScale: {x: 4.761, y: 29.151106, z: 4.761}
+  m_LocalPosition: {x: 0.3338733, y: 2.0398552, z: 0.33594495}
+  m_LocalScale: {x: 0.1643817, y: 1.8019406, z: 0.1643817}
   m_Children: []
-  m_Father: {fileID: 3842519996857910295}
+  m_Father: {fileID: 2426781713405787266}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &643902561503590032
@@ -122,12 +122,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2426781713405787266}
-  - {fileID: 53192080318850322}
-  - {fileID: 1602220178479868150}
-  - {fileID: 8324045181563655514}
-  - {fileID: 3272994419309366792}
-  - {fileID: 8633587792986055957}
-  - {fileID: 1384681525450179730}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -144,7 +138,7 @@ GameObject:
   - component: {fileID: 2881463733603715374}
   - component: {fileID: 2380216292712253417}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: Glass-Pillar-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,10 +152,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450563292703949448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.67, y: 28, z: -9.67}
-  m_LocalScale: {x: 4.761, y: 29.151106, z: 4.761}
+  m_LocalPosition: {x: 0.3338733, y: 2.0398552, z: -0.3338733}
+  m_LocalScale: {x: 0.1643817, y: 1.8019406, z: 0.1643817}
   m_Children: []
-  m_Father: {fileID: 3842519996857910295}
+  m_Father: {fileID: 2426781713405787266}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8179204293860049154
@@ -252,10 +246,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008970650234086221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 59.2, z: -0.8}
-  m_LocalScale: {x: -42.92263, y: -10.676466, z: -42.92263}
+  m_LocalPosition: {x: -0.006905238, y: 3.9684455, z: -0.027621347}
+  m_LocalScale: {x: -1.4819775, y: -0.65995294, z: -1.4819775}
   m_Children: []
-  m_Father: {fileID: 3842519996857910295}
+  m_Father: {fileID: 2426781713405787266}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8323986345042497868
@@ -331,7 +325,7 @@ GameObject:
   - component: {fileID: 569151385432106873}
   - component: {fileID: 8287512197657170973}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,6 +343,12 @@ Transform:
   m_LocalScale: {x: 28.96308, y: 16.177618, z: 28.96308}
   m_Children:
   - {fileID: 8876352179110404040}
+  - {fileID: 53192080318850322}
+  - {fileID: 1602220178479868150}
+  - {fileID: 8324045181563655514}
+  - {fileID: 3272994419309366792}
+  - {fileID: 8633587792986055957}
+  - {fileID: 1384681525450179730}
   m_Father: {fileID: 3842519996857910295}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 7884806907473836513}
   - component: {fileID: 1673475011802444118}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: 2nd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 1780375700859556436}
   - component: {fileID: 4506980415378576498}
   m_Layer: 0
-  m_Name: Cylinder (3)
+  m_Name: Glass-Pillar-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,10 +532,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7865419238864132242}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.8, y: 28, z: 9.69}
-  m_LocalScale: {x: 4.761, y: 29.151106, z: 4.761}
+  m_LocalPosition: {x: -0.33836192, y: 2.0398552, z: 0.33456385}
+  m_LocalScale: {x: 0.1643817, y: 1.8019406, z: 0.1643817}
   m_Children: []
-  m_Father: {fileID: 3842519996857910295}
+  m_Father: {fileID: 2426781713405787266}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &223955275018465115
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 4440880745715294953}
   - component: {fileID: 7948864716299061802}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: Glass-Pillar-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -626,10 +626,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8550940729215534957}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.8, y: 28, z: -9.67}
-  m_LocalScale: {x: 4.761, y: 29.151106, z: 4.761}
+  m_LocalPosition: {x: -0.33836192, y: 2.0398552, z: -0.3338733}
+  m_LocalScale: {x: 0.1643817, y: 1.8019406, z: 0.1643817}
   m_Children: []
-  m_Father: {fileID: 3842519996857910295}
+  m_Father: {fileID: 2426781713405787266}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4843879769066318169
@@ -706,7 +706,7 @@ GameObject:
   - component: {fileID: 5638194128924756849}
   - component: {fileID: 6846906015302016724}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -720,10 +720,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8917921117687467670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -12.1, z: 0}
-  m_LocalScale: {x: 31.123724, y: 0.7040536, z: 31.123724}
+  m_LocalPosition: {x: 0, y: -0.438878, z: 0}
+  m_LocalScale: {x: 1.0746, y: 0.043520227, z: 1.0746}
   m_Children: []
-  m_Father: {fileID: 3842519996857910295}
+  m_Father: {fileID: 2426781713405787266}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4485187452187028630
