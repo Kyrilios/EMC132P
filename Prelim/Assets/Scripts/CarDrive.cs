@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class CarDrive : MonoBehaviour
 {
+    //public variables for easy access
     public float speed;
     public float turnSpeed;
     public float gravityMultiplier;
 
     private Rigidbody rb;
 
-    // Start is called before the first frame update
     void Start()
     {
+        // getting the rigid body of the object
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
+        //method calling in FixedUpdate for a smooth and constant code execution
         Accelerate();
         Turn();
         Fall();
@@ -26,15 +27,19 @@ public class CarDrive : MonoBehaviour
 
     void Accelerate ()
     {
+        //acceleration method
         if (Input.GetKey(KeyCode.W))
         {
+            //prevents movement for y axis while movement for x and z is implemented
             rb.AddRelativeForce(new Vector3(Vector3.forward.x, 0, Vector3.forward.z) * speed * 10);
         }
         else if (Input.GetKey(KeyCode.S))
         {
+              //prevents movement for y axis while movement for x and z is implemented
             rb.AddRelativeForce(-new Vector3(Vector3.forward.x, 0, Vector3.forward.z) * speed * 10);
         }
 
+//removes the x axis force of relative velocity, makes the car move only to the direction it's facing
         Vector3 locVel = transform.InverseTransformDirection(rb.velocity);
         locVel = new Vector3(0, locVel.y, locVel.z);
         rb.velocity = transform.TransformDirection(locVel);
@@ -42,6 +47,7 @@ public class CarDrive : MonoBehaviour
 
     void Turn ()
     {
+        // method for turning left and right
         if (Input.GetKey(KeyCode.A))
         {
             rb.AddTorque(-transform.up * turnSpeed * 10);
@@ -54,6 +60,7 @@ public class CarDrive : MonoBehaviour
 
     void Fall()
     {
+        //adding a downforce for the object
         rb.AddForce(Vector3.down * gravityMultiplier * 10);
     }
 }
